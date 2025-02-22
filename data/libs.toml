@@ -7,7 +7,6 @@
 # JavaScript
 [js.leaflet]
   version = "1.9.3"
-  integrity = "sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
 
 [js.plyr]
   #Make sure the hash is for the polyfilled version
@@ -21,7 +20,6 @@
 # CSS
 [css.leaflet]
   version = "1.9.3"
-  integrity = "sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
 
 [css.plyr]
   version = "3.7.8"
