@@ -11,11 +11,9 @@
 [js.plyr]
   #Make sure the hash is for the polyfilled version
   version = "3.7.8"
-  integrity = "sha512-CXGbF3dJwjf6VoLTAitzgDvMH4Hck+s3qJJeq7Klbg0NnFWfyD5rxoK4Z0JGMv+BIlxKJwESN/8RNaqr1/cxQQ=="
 
 [js.instantpage]
   version = "5.2.0"
-  integrity = "sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"
 
 # CSS
 [css.leaflet]
@@ -23,4 +21,3 @@
 
 [css.plyr]
   version = "3.7.8"
-  integrity = "sha512-uPqDOam5vjVgnASE75fCgMtdLa3oK2+3muDU5ESulSImHAA0Z0xjEnuJpKowTsXUWY09MsYre48zgBFwh2P/yw=="
