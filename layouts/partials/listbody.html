@@ -20,7 +20,9 @@
         <div class="col-6 col-12-mobilep">
           <span class="image fit">
             <a href="{{ .Permalink }}">
-              <img src="{{ index .Params.images 0 | absURL }}"></img>
+              {{ $imgPath := index .Params.images 0 }}
+              {{ $img := .Resources.GetMatch $imgPath }}
+              <img src="{{ if $img }}{{ $img.RelPermalink }}{{ else }}{{ $imgPath | absURL }}{{ end }}"></img>
             </a/>
           </span>
         </div>
