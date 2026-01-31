@@ -15,7 +15,7 @@
 <script src="{{ $breakpoints.RelPermalink }}" crossorigin="anonymous"></script>
 <script src="{{ $util.RelPermalink }}" crossorigin="anonymous"></script>
 <script src="{{ $main.RelPermalink }}" crossorigin="anonymous"></script>
-<script src="{{ "js/gallery.js" | absURL }}"></script>
+<script src="{{ "js/gallery.js" | relURL }}"></script>
 {{ "<!-- Scripts ALPHA-CHURCH-->" | safeHTML }}
 {{ if isset .Site.Params "bible_popups" }}
   {{ $ver := "ESV"}}
